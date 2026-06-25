@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wealt Home</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded"
+		/>
+	</head>
+	<body>
+<div class="hero-wrapper position-relative overflow-hidden">
+   <img src="assets/images/bg-pattern.png" class="hero-bg-pattern" alt="Pattern" />
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" alt="Wealth Home Logo" height="32" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Rent</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sell</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Buy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          </ul>
+
+          <div class="d-flex gap-2 ms-lg-3">
+            <a href="#" class="btn btn-link text-white">Login</a>
+            <a href="#" class="btn btn-primary rounded-pill px-4">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero position-relative overflow-hidden py-5">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="fw-bold display-5 mb-3 text-white">
+            Find a place where you can be yourself.
+          </h1>
+          <p class="text-white-50 mb-4">
+            If you're looking for a place where you can be yourself, don't
+            give up. Keep searching until you find a place that feels like
+            home.
+          </p>
+
+          <form class="bg-white p-3 rounded-3 shadow-sm d-flex flex-wrap gap-3">
+            <div class="search-item">
+              <label class="form-label small fw-semibold">Want To</label>
+              <select class="form-select" name="want-to">
+                <option value="buy" selected>Buy</option>
+                <option value="sell">Sell</option>
+                <option value="rent">Rent</option>
+              </select>
+            </div>
+
+            <div class="search-item">
+              <label class="form-label small fw-semibold">Property Type</label>
+              <select class="form-select" name="property-type">
+                <option value="any" selected>Any</option>
+                <option value="houses">Houses</option>
+                <option value="apartments">Apartments</option>
+                <option value="villa">Villa</option>
+                <option value="townhome">Townhome</option>
+                <option value="bungalow">Bungalow</option>
+                <option value="loft">Loft</option>
+              </select>
+            </div>
+
+            <div class="search-item">
+              <label class="form-label small fw-semibold">Location</label>
+              <input type="text" class="form-control" placeholder="Street, City, Zip..." />
+            </div>
+
+            <div class="d-flex align-items-end">
+              <button type="submit" class="btn btn-primary px-4">Search</button>
+            </div>
+          </form>
+        </div>
+
+<div class="col-lg-6 text-center mt-4 mt-lg-0 d-none d-lg-block">
+  <img src="assets/images/hero.png" class="img-fluid" alt="Hero " />
+</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+			<section class="property py-5" aria-labelledby="property-label">
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col-lg-8">
+							<h2 id="property-label" class="fw-bold mb-2">
+								Best home in your city
+							</h2>
+							<p class="text-muted">
+								Lorem ipsum dolor sit amet consectetur. In quisque scelerisque
+								eget id facilisis. Aliquam in libero egestas at.
+							</p>
+							<a href="#" class="btn btn-outline-dark">Explore more →</a>
+						</div>
+					</div>
+
+					<!-- كروت البيوت -->
+					<div class="row g-4">
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+
+								<!-- زرار القلب -->
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+
+								<img
+									src="assets/images/property-1.jpg"
+									class="card-img-top"
+									alt="COVA Home Realty"
+								/>
+
+								<div class="card-body">
+									<span class="fw-bold fs-5">$710.68</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>COVA Home Realty</a
+										>
+									</h3>
+									<address class="text-muted small">
+										1901 Thornridge Cir. Shiloh, Hawaii 81063
+									</address>
+
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											3 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											2 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1430 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+                        <!-- كارت 2 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-2.jpg"
+									class="card-img-top"
+									alt="Exit Realty"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$630.44</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>Exit Realty</a
+										>
+									</h3>
+									<address class="text-muted small">
+										2972 Westheimer Rd. Santa Ana, Illinois 85486
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											5 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											4 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1630 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- كارت 3 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-3.jpg"
+									class="card-img-top"
+									alt="The Real Estate Group"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$475.22</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>The Real Estate Group</a
+										>
+									</h3>
+									<address class="text-muted small">
+										2118 Thornridge Cir. Syracuse, Connecticut 35624
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											8 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											5 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1240 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+						<!-- كارت 4 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-4.jpg"
+									class="card-img-top"
+									alt="757 Realty"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$576.28</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>757 Realty</a
+										>
+									</h3>
+									<address class="text-muted small">
+										4140 Parker Rd. Allentown, New Mexico 31134
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											6 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											6 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1260 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<!-- كارت 5 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-5.jpg"
+									class="card-img-top"
+									alt="Beach Pros Realty Inc."
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$473.85</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>Beach Pros Realty Inc.</a
+										>
+									</h3>
+									<address class="text-muted small">
+										2715 Ash Dr. San Jose, South Dakota 83475
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											10 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											8 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											2350 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<!-- كارت 6 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-6.jpg"
+									class="card-img-top"
+									alt="Keller Williams Elite Town Center"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$105.55</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>Keller Williams Elite Town Center</a
+										>
+									</h3>
+									<address class="text-muted small">
+										3517 W. Gray St. Utica, Pennsylvania 57867
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											8 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											8 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1950 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<!-- كارت 7 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-7.jpg"
+									class="card-img-top"
+									alt="All Pros Real Estate"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$739.65</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>All Pros Real Estate</a
+										>
+									</h3>
+									<address class="text-muted small">
+										8502 Preston Rd. Inglewood, Maine 98380
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											4 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											4 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1580 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+
+						<!-- كارت 8 -->
+						<article class="col-md-6 col-lg-3">
+							<div class="card h-100 position-relative">
+								<span class="badge bg-dark position-absolute top-0 start-0 m-2"
+									>New</span
+								>
+								<button
+									class="fav-btn position-absolute top-0 end-0 m-2"
+									aria-label="add to favorite"
+								>
+									<span class="material-symbols-rounded">favorite</span>
+								</button>
+								<img
+									src="assets/images/property-8.jpg"
+									class="card-img-top"
+									alt="FIT Realty"
+								/>
+								<div class="card-body">
+									<span class="fw-bold fs-5">$948.55</span>
+									<h3 class="h6 mt-2">
+										<a href="#" class="text-dark text-decoration-none"
+											>FIT Realty</a
+										>
+									</h3>
+									<address class="text-muted small">
+										4517 Washington Ave. Manchester, Kentucky 39495
+									</address>
+									<div class="d-flex gap-3 small text-muted mt-3">
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bed</span
+											>
+											3 Bed</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>bathtub</span
+											>
+											2 Bath</span
+										>
+										<span
+											><span class="material-symbols-rounded align-middle"
+												>straighten</span
+											>
+											1120 sqft</span
+										>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+                
+			</section> <!--feature بيبدا هنا   -->
+			<section class="feature py-5" aria-labelledby="feature-label">
+				<div class="container">
+					<div class="row align-items-center g-4">
+						<div class="col-lg-6">
+							<figure class="m-0">
+								<img
+									src="assets/images/feature-banner-1.jpg"
+									class="img-fluid rounded-3"
+									alt="feature banner"
+								/>
+							</figure>
+						</div>
+
+						<div class="col-lg-6">
+							<h2 id="feature-label" class="fw-bold mb-3">
+								We Specialize In Quality Home Renovations
+							</h2>
+							<p class="text-muted mb-4">
+								Looking to renovate your home to reflect your style and
+								personality? Look no further than our team of experts who
+								specialize in quality home renovations to transform your space
+								into a dream home you'll love. From design to execution.
+							</p>
+
+							<ul class="list-unstyled">
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Smart Home</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Beautiful Scene Around</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Exceptional lifestyle</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Complete 24/7 Security</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="feature py-5 bg-light" aria-labelledby="feature-label-2">
+				<div class="container">
+					<div class="row align-items-center g-4">
+						<div class="col-lg-6 order-lg-2">
+							<figure class="m-0">
+								<img
+									src="assets/images/feature-banner-2.jpg"
+									class="img-fluid rounded-3"
+									alt="feature banner"
+								/>
+							</figure>
+						</div>
+
+						<div class="col-lg-6 order-lg-1">
+							<h2 id="feature-label-2" class="fw-bold mb-3">
+								We Are Experts In Historic Home Renovations
+							</h2>
+							<p class="text-muted mb-4">
+								Looking to renovate your home to reflect your style and
+								personality? Look no further than our team of experts who
+								specialize in quality home renovations to transform your space
+								into a dream home you'll love. From design to execution.
+							</p>
+
+							<ul class="list-unstyled">
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Smart Home</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Beautiful Scene Around</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Exceptional lifestyle</span>
+								</li>
+								<li class="d-flex align-items-center gap-2 mb-2">
+									<span class="material-symbols-rounded text-success"
+										>check_circle</span
+									>
+									<span>Complete 24/7 Security</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Video -->
+			<section class="video py-5">
+				<div class="container">
+					<div
+						class="video-card position-relative rounded-3 overflow-hidden"
+						style="height: 400px"
+					>
+						<button
+							class="play-btn position-absolute top-50 start-50 translate-middle"
+							aria-label="play video"
+						>
+							<span class="material-symbols-rounded">play_arrow</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="story py-5">
+				<div class="container">
+					<!-- Header -->
+					<div class="row mb-4 align-items-center">
+						<div class="col-lg-8">
+							<p class="text-muted mb-1">Our Customers</p>
+							<h2 class="fw-bold mb-3">
+								We Help 1000+ Family Find Their True Home
+							</h2>
+
+							<ul class="list-unstyled d-flex">
+								<li class="avatar-overlap">
+									<img
+										src="assets/images/avatar-1.jpg"
+										class="rounded-circle"
+										width="48"
+										height="48"
+										alt="customer"
+									/>
+								</li>
+								<li class="avatar-overlap">
+									<img
+										src="assets/images/avatar-2.jpg"
+										class="rounded-circle"
+										width="48"
+										height="48"
+										alt="customer"
+									/>
+								</li>
+								<li class="avatar-overlap">
+									<img
+										src="assets/images/avatar-3.jpg"
+										class="rounded-circle"
+										width="48"
+										height="48"
+										alt="customer"
+									/>
+								</li>
+								<li class="avatar-overlap position-relative">
+									<img
+										src="assets/images/avatar-4.jpg"
+										class="rounded-circle"
+										width="48"
+										height="48"
+										alt="customer"
+									/>
+									<span class="avatar-count">99+</span>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+							<a href="#" class="btn btn-outline-dark">View All Stories →</a>
+						</div>
+					</div>
+
+					<!-- كروت القصص -->
+					<div class="row g-4">
+						<!-- كارت 1 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-1.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Chris Traeger</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-1.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Chris Traeger"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<!-- كارت 2 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-2.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Duke Silver</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-2.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Duke Silver"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<!-- كارت 3 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-3.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Tsukasa Aoir</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-3.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Tsukasa Aoir"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<!-- كارت 4 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-4.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Freida Varnes</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-4.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Freida Varnes"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<!-- كارت 5 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-5.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Carl Lorthner</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-5.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Carl Lorthner"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<!-- كارت 6 -->
+						<div class="col-md-4">
+							<div
+								class="story-card"
+								style="
+									background-image: url(&quot;assets/images/story-6.jpg&quot;);
+								"
+							>
+								<a href="#" class="story-overlay">
+									<div>
+										<h3 class="h6 text-white mb-1">Marci Senter</h3>
+										<div class="rating-wrapper text-warning">
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="material-symbols-rounded">star</span>
+											<span class="text-white ms-1">5.0</span>
+										</div>
+									</div>
+									<img
+										src="assets/images/story-avatar-6.jpg"
+										class="story-avatar"
+										width="56"
+										height="56"
+										alt="Marci Senter"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="bg-dark text-light pt-5">
+			<div class="container">
+				<div class="row g-4">
+					<div class="col-lg-4">
+						<a href="#" class="d-inline-block mb-3">
+							<img src="assets/images/logo.png" width="160" alt="Wealth Home" />
+						</a>
+						<p class="text-secondary">
+							Lorem ipsum dolor sit amet consectetur. Non bibendum sit non
+							congue pharetra pulvinar leo. Sed ut amet ipsum.
+						</p>
+					</div>
+
+					<nav class="col-lg-2 col-md-4" aria-labelledby="nav-label-1">
+						<p class="fw-bold mb-3" id="nav-label-1">Quick link</p>
+						<ul class="list-unstyled">
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none">Home</a>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none">Buy</a>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none">Sell</a>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none">Rent</a>
+							</li>
+						</ul>
+					</nav>
+
+					<nav class="col-lg-3 col-md-4" aria-labelledby="nav-label-2">
+						<p class="fw-bold mb-3" id="nav-label-2">Support</p>
+						<ul class="list-unstyled">
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none"
+									>About us</a
+								>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none"
+									>Contact us</a
+								>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none"
+									>Privacy Policy</a
+								>
+							</li>
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none"
+									>Terms & Conditions</a
+								>
+							</li>
+						</ul>
+					</nav>
+
+					<nav class="col-lg-3 col-md-4" aria-labelledby="nav-label-3">
+						<p class="fw-bold mb-3" id="nav-label-3">Get in touch</p>
+						<ul class="list-unstyled">
+							<li class="mb-2">
+								<a href="#" class="text-secondary text-decoration-none"
+									>hello@wealthome.com</a
+								>
+							</li>
+							<li class="mb-3">
+								<address class="text-secondary mb-0">
+									4140 Parker Rd. Allentown, New Mexico 31134
+								</address>
+							</li>
+							<li>
+								<ul class="list-unstyled d-flex gap-3">
+									<li>
+										<a href="#"
+											><img
+												src="assets/images/facebook.svg"
+												alt="facebook"
+												width="20"
+										/></a>
+									</li>
+									<li>
+										<a href="#"
+											><img
+												src="assets/images/twitter.svg"
+												alt="twitter"
+												width="20"
+										/></a>
+									</li>
+									<li>
+										<a href="#"
+											><img
+												src="assets/images/insta.svg"
+												alt="instagram"
+												width="20"
+										/></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="border-top border-secondary mt-4 py-3">
+				<div class="container">
+					<p class="text-secondary mb-0 small">Copyright 2026 Abdo Gamal</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
